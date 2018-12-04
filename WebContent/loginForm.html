@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<title>로그인</title>
+<style type="text/css">
+iframe {
+	border: none;
+}
+a {
+	text-decoration: none;
+	color: gray;
+}
+</style>
+</head>
+<body>
+	<div style="position: center">
+		<center>
+			<!--로그인-->
+			<div>
+				<p>
+					<b style="color: dimgrey; text-align: justify; font-size: 30px">로그인</b>
+				<hr size="5" color="#bc8f8f" width="70%">
+				<form action="loginProcess.jsp" method="POST">
+					<br>
+					<br> 아이디<br> <input type="text" name="id"
+						style="border: 0.5px solid grey; border-radius: 5px; width: 19%; height: 30px"><br>
+					<br> 비밀번호<br> <input type="password" name="pw"
+						style="border: 0.5px solid grey; border-radius: 5px; width: 19%; height: 30px"><br>
+					<br> <input type="submit" value="로그인"
+						style="background: #bc8f8f; border-radius: 5px; width: 19%; height: 50px; font-size: 15px">
+				</form>
+				<br>
+				<br>
+
+				<!--id찾기, pw찾기, 회원가입-->
+				<hr size="2" color="darkgray" width="20%">
+				<a href="./searchIdForm.jsp">아이디 찾기</a> |
+				<a href="./searchPwForm.jsp">비밀번호 찾기</a> |
+				<a href="./addUserForm.jsp">회원가입</a> |
+				<a href="./main.jsp">홈으로 돌아가기</a><br>
+			</div>
+			<br> <br>
+		</center>
+	</div>
+</body>
+</html>

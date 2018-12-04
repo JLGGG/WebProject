@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>menu</title>
+<style>
+.menu {
+	border: 1px solid #bc8f8f;
+	width: 80%;
+	background: #bc8f8f;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 30px;
+	box-shadow: 5px 5px 10px gray;
+}
+ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+li{
+	float:left;
+}
+li ul{
+	position:absolute;
+	min-width:160px;
+	display:none;
+	background-color:rgb(255,165,0);
+	border-radius: 30px;
+}
+li:hover ul {
+	display:block;
+}
+
+a {
+	padding: 70px;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+a:hover {
+	color: black;
+}
+</style>
+</head>
+<body>
+	<div class="menu">
+		<ul>
+			<li><a href="#">사이트정보</a>
+				<ul>
+					<li><a href="#">사이트 소개</a></li>
+					<li><a href="#">공지사항</a></li>
+					<li><a href="#">만든 사람들</a></li>
+				</ul>
+			</li>
+			<li><a href="#">커뮤니티</a>
+				<ul>
+					<li><a href="#">자유게시판</a></li>
+					<li><a href="#">정보게시판</a></li>
+					<li><a href="#">취업게시판</a></li>
+				</ul>
+			</li> 
+			<li><a href="#">취업정보</a></li>
+			<li><a href="#">대외정보</a></li>
+		</ul>
+	</div>
+
+</body>
+</html>
