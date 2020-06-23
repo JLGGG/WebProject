@@ -1,0 +1,16 @@
+/*투명한 표 css */
+@charset "utf-8";
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+th {
+	border-collapse: collapse;
+	padding: 0px;	 
+}
+td {
+	border-collapse: collapse;
+	padding: 0px;	 
+}

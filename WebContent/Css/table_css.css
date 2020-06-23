@@ -1,0 +1,19 @@
+/* 가로줄 만 있는 테이블 css */
+@charset "utf-8";
+
+table {
+    width: 100%;
+    border-top: 0.1px solid #5D5D5D;
+    border-collapse: collapse;
+  }
+  
+th {
+    border-bottom: 0.1px solid #5D5D5D;
+    padding: 10px;
+	background-color:#ffffff;
+}
+td {
+    border-bottom: 0.1px solid #5D5D5D;
+    padding: 10px;
+}
+

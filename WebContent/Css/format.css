@@ -1,0 +1,9 @@
+#article{
+	border: 1px solid gray;
+	padding: 20px;
+}
+#comment{
+	border: 0px;
+	background: #EAEAEA;
+	padding: 20px;
+}

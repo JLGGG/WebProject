@@ -1,20 +1,36 @@
 package user;
 
 public class User {
-	public User(String id, String pw) {
-		super();
-		this.id = id;
-		this.pw = pw;
-	}
-	public User() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
+
 	private String id;
 	private String pw;
-	private String address;
-	private String email;
-	private String mobile;
+	
+	private String name;
+	private String gender;
+	private String year;
+	private String month;
+	private String date;
+	
+	private String joinPath;
+	private String recommend;
+	
+	private String level;
+	private int manager;
+	
+	public User() {
+		this.id= "";
+		this.pw= "";
+		this.name= "";
+		this.gender= "";
+		this.year= "";
+		this.month= "";
+		this.date= "";
+		this.joinPath= "";
+		this.recommend= "";
+		this.level= "";
+		this.manager= 0;
+	}
+	
 	public String getId() {
 		return id;
 	}
@@ -27,23 +43,61 @@ public class User {
 	public void setPw(String pw) {
 		this.pw = pw;
 	}
-	public String getAddress() {
-		return address;
+	public String getName() {
+		return name;
 	}
-	public void setAddress(String address) {
-		this.address = address;
+	public void setName(String name) {
+		this.name = name;
 	}
-	public String getEmail() {
-		return email;
+	public String getGender() {
+		return gender;
 	}
-	public void setEmail(String email) {
-		this.email = email;
+	public void setGender(String gender) {
+		this.gender = gender;
 	}
-	public String getMobile() {
-		return mobile;
+	public String getYear() {
+		return year;
 	}
-	public void setMobile(String mobile) {
-		this.mobile = mobile;
+	public void setYear(String year) {
+		this.year = year;
 	}
+	public String getMonth() {
+		return month;
+	}
+	public void setMonth(String month) {
+		this.month = month;
+	}
+	public String getDate() {
+		return date;
+	}
+	public void setDate(String date) {
+		this.date = date;
+	}
+	
+	public String getJoinPath() {
+		return joinPath;
+	}
+	public void setJoinPath(String joinPath) {
+		this.joinPath = joinPath;
+	}
+	public String getRecommend() {
+		return recommend;
+	}
+	public void setRecommend(String recommend) {
+		this.recommend = recommend;
+	}
+	public String getLevel(){
+		return level;
+	}
+	public void setLevel(String level) {
+		this.level = level;
+	}
+	public int getManager() {
+		return manager;
+	}
+	public void setManager(int manager) {
+		this.manager = manager;
+	}
+	
 
 }

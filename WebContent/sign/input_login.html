@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<title>로그인</title>
+<style type="text/css">
+iframe {
+	border: none;
+}
+a {
+	text-decoration: none;
+	color: gray;
+}
+</style>
+</head>
+<body>
+	<div style="position: center">
+		<center>
+			<div id="header">
+				<iframe src="../page/header_noIcon.jsp" width="100%" scrolling="no"></iframe>
+			</div>
+			<br>
+			<!--로그인-->
+			<div>
+				<p>
+					<b style="color: dimgrey; text-align: justify; font-size: 30px">로그인</b>
+				<hr size="5" color="#FFD966" width="70%">
+				<form action="output_login.jsp" method="POST">
+					<br>
+					<br> 아이디<br> <input type="text" name="id"
+						style="border: 0.5px solid grey; border-radius: 5px; width: 19%; height: 30px"><br>
+					<br> 비밀번호<br> <input type="password" name="pw"
+						style="border: 0.5px solid grey; border-radius: 5px; width: 19%; height: 30px"><br>
+					<br> <input type="submit" value="로그인"
+						style="background: darkgray; border-radius: 5px; width: 19%; height: 50px; font-size: 15px">
+				</form>
+				<br>
+				<br>
+
+				<!--id찾기, pw찾기, 회원가입-->
+				<hr size="2" color="darkgray" width="20%">
+				<a href="input_finding_ID.jsp">아이디 찾기</a> | <a
+					href="input_finding_PW.jsp">비밀번호 찾기</a> | <a
+					href="input_signup.jsp">회원가입</a> <br>
+			</div>
+			<br> <br>
+		</center>
+		</p>
+	</div>
+</body>
+</html>

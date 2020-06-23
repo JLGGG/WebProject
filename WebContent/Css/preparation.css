@@ -1,0 +1,19 @@
+#preparation{
+	width: 90%;
+	height: 600px;
+	background-color: #5D5D5D;
+	opacity: 0.5;
+	color: white;
+	z-index: 10;
+	position: relative;
+	margin: auto;
+	text-align: center;
+	left: 10px;
+	top: -500px;
+}
+#preparation #pre{
+	line-height: 600px;
+	padding: auto;
+	font-weight: bold;
+	font-size: 30px;
+}

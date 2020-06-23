@@ -1,0 +1,20 @@
+#preview{
+	margin-top: 50px;
+	border: 0px;
+	width:80px;
+	height:30px;
+	background-color:white;
+	}
+	#save{
+	border: 0px;
+	width:80px;
+	height:30px;
+	background-color: #712E08;
+	color: white;
+	}
+	#cancel{
+	border: 0px;
+	width:80px;
+	height:30px;
+	background-color:white;
+	}
